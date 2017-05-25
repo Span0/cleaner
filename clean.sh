@@ -10,5 +10,3 @@ for f in in/* ; do
 	sed -i '/224.0.0.0\/3/d' $f
 	mv $f out/
 done
-
-
