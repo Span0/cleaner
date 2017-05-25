@@ -8,6 +8,9 @@ Removed : 192.168.0.0/16
 Removed : 10.0.0.0/8
 Removed : 172.16.0.0/12
 
+Localhost : https://tools.ietf.org/html/rfc6761
+Removed : 127.0.0.0/8
+
 Blacklist are updated hourly
 
 FireHol repo : https://github.com/firehol/blocklist-ipsets
