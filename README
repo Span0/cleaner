@@ -1,9 +1,13 @@
 Almost useless script to remove the following IP from FireHol blacklist :
 
-Unicast IP : https://www.iana.org/assignments/multicast-addresses/multicast-addresses.xhtml
+Multicast IP : https://www.iana.org/assignments/multicast-addresses/multicast-addresses.xhtml
 Removed : 224.0.0.0/3
 
 Private Address Space : https://tools.ietf.org/html/rfc1918
 Removed : 192.168.0.0/16
 Removed : 10.0.0.0/8
 Removed : 172.16.0.0/12
+
+Blacklist are updated hourly
+
+FireHol repo : https://github.com/firehol/blocklist-ipsets
