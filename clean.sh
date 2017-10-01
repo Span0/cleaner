@@ -13,3 +13,7 @@ for f in in/* ; do
 	sed -i '/213.230.210.230/d' $f
 	mv $f blacklist/
 done
+#facebook
+whois -h whois.radb.net -- '-i origin AS32934' | awk '/^route:/ {print $2;}' | sort | uniq > blackist/facebook.netset
+#twitch
+whois -h whois.radb.net -- '-i origin AS46489' | awk '/^route:/ {print $2;}' | sort | uniq > blackist/twitch.netset
