@@ -14,6 +14,6 @@ for f in in/* ; do
 	mv $f blacklist/
 done
 #facebook
-whois -h whois.radb.net -- '-i origin AS32934' | awk '/^route:/ {print $2;}' | sort | uniq > blackist/facebook.netset
+whois -h whois.radb.net -- '-i origin AS32934' | awk '/^route:/ {print $2;}' | sort | uniq > blacklist/facebook.netset
 #twitch
-whois -h whois.radb.net -- '-i origin AS46489' | awk '/^route:/ {print $2;}' | sort | uniq > blackist/twitch.netset
+whois -h whois.radb.net -- '-i origin AS46489' | awk '/^route:/ {print $2;}' | sort | uniq > blacklist/twitch.netset
