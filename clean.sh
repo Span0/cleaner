@@ -18,6 +18,6 @@ whois -h whois.radb.net -- '-i origin AS32934' | awk '/^route:/ {print $2;}' | s
 #twitch
 whois -h whois.radb.net -- '-i origin AS46489' | awk '/^route:/ {print $2;}' | sort | uniq > blacklist/twitch.netset
 #google/youtube
-whois -h whois.radb.net -- '-i origin AS46489' | awk '/^route:/ {print $2;}' | sort | uniq > blacklist/google.netset
+whois -h whois.radb.net -- '-i origin AS15169' | awk '/^route:/ {print $2;}' | sort | uniq > blacklist/google.netset
 #dailymotion
-whois -h whois.radb.net -- '-i origin AS46489' | awk '/^route:/ {print $2;}' | sort | uniq > blacklist/dailymotion.netset
+whois -h whois.radb.net -- '-i origin AS41690' | awk '/^route:/ {print $2;}' | sort | uniq > blacklist/dailymotion.netset
