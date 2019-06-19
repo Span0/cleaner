@@ -17,3 +17,154 @@ Removed : 213.230.210.230 yoyo.org
 Blacklist are updated hourly
 
 FireHol repo : https://github.com/firehol/blocklist-ipsets
+
+
+#########################################################
+
+
+ #firehol_level1
+
+ ipv4 hash:net ipset
+
+ A firewall blacklist composed from IP lists, providing 
+ maximum protection with minimum false positives. Suitable 
+ for basic protection on all internet facing servers, 
+ routers and firewalls. (includes: bambenek_c2 dshield feodo 
+ fullbogons spamhaus_drop spamhaus_edrop sslbl zeus_badips 
+ ransomware_rw)
+
+ Maintainer      : FireHOL
+ Maintainer URL  : http://iplists.firehol.org/
+
+ Full list analysis, including geolocation map, history,
+ retention policy, overlaps with other lists, etc.
+ available at:
+
+  http://iplists.firehol.org/?ipset=firehol_level1
+
+
+
+
+ #firehol_level2
+
+ ipv4 hash:net ipset
+
+ An ipset made from blocklists that track attacks, during 
+ about the last 48 hours. (includes: blocklist_de dshield_1d 
+ greensnow)
+
+ Maintainer      : FireHOL
+ Maintainer URL  : http://iplists.firehol.org/
+
+ Full list analysis, including geolocation map, history,
+ retention policy, overlaps with other lists, etc.
+ available at:
+
+  http://iplists.firehol.org/?ipset=firehol_level2
+
+
+
+
+ #firehol_level3
+
+ ipv4 hash:net ipset
+
+ An ipset made from blocklists that track attacks, spyware, 
+ viruses. It includes IPs than have been reported or 
+ detected in the last 30 days. (includes: bruteforceblocker 
+ ciarmy dshield_30d dshield_top_1000 malc0de 
+ maxmind_proxy_fraud myip shunlist snort_ipfilter 
+ sslbl_aggressive talosintel_ipfilter zeus vxvault)
+
+ Maintainer      : FireHOL
+ Maintainer URL  : http://iplists.firehol.org/
+
+ Full list analysis, including geolocation map, history,
+ retention policy, overlaps with other lists, etc.
+ available at:
+
+  http://iplists.firehol.org/?ipset=firehol_level3
+
+
+
+
+ #firehol_level4
+
+ ipv4 hash:net ipset
+
+ An ipset made from blocklists that track attacks, but may 
+ include a large number of false positives. (includes: 
+ blocklist_net_ua botscout_30d cruzit_web_attacks cybercrime 
+ haley_ssh iblocklist_hijacked iblocklist_spyware 
+ iblocklist_webexploit ipblacklistcloud_top iw_wormlist 
+ malwaredomainlist)
+
+ Maintainer      : FireHOL
+ Maintainer URL  : http://iplists.firehol.org/
+ List source URL : 
+
+ Full list analysis, including geolocation map, history,
+ retention policy, overlaps with other lists, etc.
+ available at:
+
+  http://iplists.firehol.org/?ipset=firehol_level4
+
+
+
+
+ #firehol_webclient
+
+ ipv4 hash:net ipset
+
+ An IP blacklist made from blocklists that track IPs that a 
+ web client should never talk to. This list is to be used on 
+ top of firehol_level1. (includes: ransomware_online 
+ sslbl_aggressive cybercrime dyndns_ponmocup 
+ maxmind_proxy_fraud)
+
+ Maintainer      : FireHOL
+ Maintainer URL  : http://iplists.firehol.org/
+ List source URL : 
+ Source File Date: Wed Jun 19 06:20:39 UTC 2019
+
+ Full list analysis, including geolocation map, history,
+ retention policy, overlaps with other lists, etc.
+ available at:
+
+  http://iplists.firehol.org/?ipset=firehol_webclient
+
+
+
+
+ #firehol_webserver
+
+ ipv4 hash:net ipset
+
+ A web server IP blacklist made from blocklists that track 
+ IPs that should never be used by your web users. (This list 
+ includes IPs that are servers hosting malware, bots, etc or 
+ users having a long criminal history. This list is to be 
+ used on top of firehol_level1, firehol_level2, 
+ firehol_level3 and possibly firehol_proxies or 
+ firehol_anonymous). (includes: maxmind_proxy_fraud myip 
+ pushing_inertia_blocklist stopforumspam_toxic)
+
+ Maintainer      : FireHOL
+ Maintainer URL  : http://iplists.firehol.org/
+
+ Full list analysis, including geolocation map, history,
+ retention policy, overlaps with other lists, etc.
+ available at:
+
+  http://iplists.firehol.org/?ipset=firehol_webserver
+
+
+#AS IP List https://en.wikipedia.org/wiki/Autonomous_system_(Internet) 
+
+google.netset
+twitch.netset
+facebook.netset
+dailymotion.netset
+
+# IP list 
+tornods.netset
