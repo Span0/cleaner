@@ -23,3 +23,5 @@ whois -h whois.radb.net -- '-i origin AS15169' | awk '/^route:/ {print $2;}' | s
 whois -h whois.radb.net -- '-i origin AS41690' | awk '/^route:/ {print $2;}' | sort | uniq > blacklist/dailymotion.netset
 #microsoft
 whois -h whois.radb.net -- '-i origin AS8075' | awk '/^route:/ {print $2;}' | sort | uniq > blacklist/microsoft.netset
+#microsoft
+whois -h whois.radb.net -- '-i origin AS2906' | awk '/^route:/ {print $2;}' | sort | uniq > blacklist/netflix.netset
