@@ -10,9 +10,10 @@ Removed : 172.16.0.0/12
 
 Localhost : https://tools.ietf.org/html/rfc6761
 Removed : 127.0.0.0/8
+Note : This is bad practice and only lo should be allowed in your firewall.
 
 Whitelist : 
-Removed : 213.230.210.230 yoyo.org
+None
 
 Blacklist are updated hourly
 
