@@ -10,7 +10,6 @@ for f in in/* ; do
 	sed -i '/10.0.0.0\/8/d' $f
 	sed -i '/172.16.0.0\/12/d' $f
 	sed -i '/224.0.0.0\/3/d' $f
-	sed -i '/213.230.210.230/d' $f
 	mv $f blacklist/
 done
 #facebook
