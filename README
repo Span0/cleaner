@@ -170,10 +170,13 @@ FireHol repo : https://github.com/firehol/blocklist-ipsets
 
 #AS IP List https://en.wikipedia.org/wiki/Autonomous_system_(Internet) 
 
-google.netset
+google.netset 
+microsoft.netset
+netflix.netset
 twitch.netset
 facebook.netset
 dailymotion.netset
+riot_games.netset
 
 # IP list 
 tornods.netset
