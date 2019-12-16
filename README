@@ -15,10 +15,6 @@ Note : This is bad practice and only lo should be allowed in your firewall.
 Whitelist : 
 None
 
-Custom blacklist :
-
-GTFO.netset :
-34.245.46.52 : checkmarknetwork.com
 
 Blacklist are updated hourly
 
@@ -27,6 +23,13 @@ FireHol repo : https://github.com/firehol/blocklist-ipsets
 
 #########################################################
 
+ #GTFO.netset :
+
+ Custom blacklist fom my honeypots
+ Contain bad bots ip
+
+ Maintainer	: Span0
+ Mainainer URL	: https://github.com/Span0/
 
  #firehol_level1
 
