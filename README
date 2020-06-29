@@ -1,3 +1,10 @@
+<WARNING>
+A BIG UPDATE OF THE FILES/FOLDERS STRUCTURE WILL BE MADE IN A FEW WEEKS, THE ACTUAL FILES/FOLDERS STRUCTURE WILL BE KEEP UNTIL END OF 2020 TO AVOID BREAKING ANY SYSTEM. This notice will be edited with more informations asap.
+
+It's been 3 years since i started this repo for my homelab, time to review many things to make it even better :)
+</WARNING>
+
+##########################################################
 Almost useless script to remove the following IP from FireHol blacklist :
 
 Multicast IP : https://www.iana.org/assignments/multicast-addresses/multicast-addresses.xhtml
@@ -23,10 +30,11 @@ FireHol repo : https://github.com/firehol/blocklist-ipsets
 
 #########################################################
 
- #GTFO.netset :
+ #GTFO.netset : DISABLED, DO NOT USE
 
  Custom blacklist fom my honeypots
- Contain bad bots ip
+ Contain bad bots ip, curently disabled, will be back once
+ the new honeypot network tests are complete.
 
  Maintainer	: Span0
  Mainainer URL	: https://github.com/Span0/
