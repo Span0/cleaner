@@ -26,5 +26,5 @@ whois -h whois.radb.net -- '-i origin AS8075' | awk '/^route:/ {print $2;}' | so
 whois -h whois.radb.net -- '-i origin AS2906' | awk '/^route:/ {print $2;}' | sort | uniq > blacklist/netflix.netset
 #riot games
 whois -h whois.radb.net -- '-i origin AS6507' | awk '/^route:/ {print $2;}' | sort | uniq > blacklist/riot_games.netset
-
-
+#tiktok
+whois -h whois.radb.net -- '-i origin AS138699' | awk '/^route:/ {print $2;}' | sort | uniq > blacklist/tiktok.netset
