@@ -28,3 +28,6 @@ whois -h whois.radb.net -- '-i origin AS2906' | awk '/^route:/ {print $2;}' | so
 whois -h whois.radb.net -- '-i origin AS6507' | awk '/^route:/ {print $2;}' | sort | uniq > blacklist/riot_games.netset
 #tiktok
 whois -h whois.radb.net -- '-i origin AS138699' | awk '/^route:/ {print $2;}' | sort | uniq > blacklist/tiktok.netset
+#amazon
+whois -h whois.radb.net -- '-i origin AS16509' | awk '/^route:/ {print $2;}' | sort | uniq > blacklist/amazon.netset
+whois -h whois.radb.net -- '-i origin AS14618' | awk '/^route:/ {print $2;}' | sort | uniq >> blacklist/amazon.netset
