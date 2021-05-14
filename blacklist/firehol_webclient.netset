@@ -12,15 +12,15 @@
 # Maintainer      : FireHOL
 # Maintainer URL  : http://iplists.firehol.org/
 # List source URL : 
-# Source File Date: Thu May 13 07:28:57 UTC 2021
+# Source File Date: Fri May 14 07:27:53 UTC 2021
 #
 # Category        : malware
-# Version         : 3283
+# Version         : 3286
 #
-# This File Date  : Thu May 13 07:40:27 UTC 2021
+# This File Date  : Fri May 14 07:40:13 UTC 2021
 # Update Frequency: 1 min 
 # Aggregation     : none
-# Entries         : 2197 subnets, 2355 unique IPs
+# Entries         : 2203 subnets, 2361 unique IPs
 #
 # Full list analysis, including geolocation map, history,
 # retention policy, overlaps with other lists, etc.
@@ -636,6 +636,7 @@
 51.255.219.180
 52.17.97.251
 52.23.192.29
+52.26.43.238
 52.33.73.186
 52.40.17.212
 52.53.186.186
@@ -707,6 +708,7 @@
 54.153.111.129
 54.160.200.2
 54.178.72.94
+54.183.132.233
 54.184.65.159
 54.201.110.50
 54.205.94.94
@@ -850,6 +852,7 @@
 77.81.142.101
 77.92.75.4
 77.105.36.251
+77.111.240.50
 77.120.113.64
 77.220.214.12
 77.247.181.162/31
@@ -940,6 +943,7 @@
 85.206.165.172
 85.214.25.136
 85.214.168.242
+85.215.93.28
 85.248.227.163
 85.248.227.164/31
 85.249.31.250
@@ -1033,6 +1037,7 @@
 94.177.172.36
 94.177.173.223
 94.177.177.14
+94.198.41.89
 94.228.207.177
 94.229.73.210
 94.230.208.147
@@ -1089,6 +1094,7 @@
 103.1.208.194
 103.9.76.199
 103.9.79.190
+103.10.29.113
 103.27.32.26
 103.27.32.42
 103.27.34.21
