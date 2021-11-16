@@ -1,8 +1,5 @@
-<WARNING>
-A BIG UPDATE OF THE FILES/FOLDERS STRUCTURE WILL BE MADE IN A FEW WEEKS, THE ACTUAL FILES/FOLDERS STRUCTURE WILL BE KEEP UNTIL END OF 2020 TO AVOID BREAKING ANY SYSTEM. This notice will be edited with more informations asap.
-
-It's been 3 years since i started this repo for my homelab, time to review many things to make it even better :)
-</WARNING>
+Update : 
+I'm still working on my new ip blocklist project, no ETA yet, i will keep this repo updated.
 
 ##########################################################
 Almost useless script to remove the following IP from FireHol blacklist :
