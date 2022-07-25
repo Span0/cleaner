@@ -22,7 +22,7 @@ whois -h whois.radb.net -- '-i origin AS15169' | awk '/^route:/ {print $2;}' | s
 whois -h whois.radb.net -- '-i origin AS41690' | awk '/^route:/ {print $2;}' | sort | uniq > blacklist/dailymotion.netset
 #microsoft
 whois -h whois.radb.net -- '-i origin AS8075' | awk '/^route:/ {print $2;}' | sort | uniq > blacklist/microsoft.netset
-#microsoft
+#netflix
 whois -h whois.radb.net -- '-i origin AS2906' | awk '/^route:/ {print $2;}' | sort | uniq > blacklist/netflix.netset
 #riot games
 whois -h whois.radb.net -- '-i origin AS6507' | awk '/^route:/ {print $2;}' | sort | uniq > blacklist/riot_games.netset
@@ -31,3 +31,8 @@ whois -h whois.radb.net -- '-i origin AS138699' | awk '/^route:/ {print $2;}' | 
 #amazon
 whois -h whois.radb.net -- '-i origin AS16509' | awk '/^route:/ {print $2;}' | sort | uniq > blacklist/amazon.netset
 whois -h whois.radb.net -- '-i origin AS14618' | awk '/^route:/ {print $2;}' | sort | uniq >> blacklist/amazon.netset
+#ovh
+whois -h whois.radb.net -- '-i origin AS16276' | awk '/^route:/ {print $2;}' | sort | uniq >> blacklist/ovh.netset
+#online.net
+whois -h whois.radb.net -- '-i origin AS12876' | awk '/^route:/ {print $2;}' | sort | uniq >> blacklist/onlineDotNet.netset
+
