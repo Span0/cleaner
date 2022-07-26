@@ -32,7 +32,7 @@ whois -h whois.radb.net -- '-i origin AS138699' | awk '/^route:/ {print $2;}' | 
 whois -h whois.radb.net -- '-i origin AS16509' | awk '/^route:/ {print $2;}' | sort | uniq > blacklist/amazon.netset
 whois -h whois.radb.net -- '-i origin AS14618' | awk '/^route:/ {print $2;}' | sort | uniq >> blacklist/amazon.netset
 #ovh
-whois -h whois.radb.net -- '-i origin AS16276' | awk '/^route:/ {print $2;}' | sort | uniq >> blacklist/ovh.netset
+whois -h whois.radb.net -- '-i origin AS16276' | awk '/^route:/ {print $2;}' | sort | uniq > blacklist/ovh.netset
 #online.net
-whois -h whois.radb.net -- '-i origin AS12876' | awk '/^route:/ {print $2;}' | sort | uniq >> blacklist/onlineDotNet.netset
+whois -h whois.radb.net -- '-i origin AS12876' | awk '/^route:/ {print $2;}' | sort | uniq > blacklist/onlineDotNet.netset
 
