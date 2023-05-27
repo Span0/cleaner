@@ -4,4 +4,4 @@ https://iplists.firehol.org/files/firehol_level3.netset
 https://iplists.firehol.org/files/firehol_level4.netset
 https://iplists.firehol.org/files/firehol_webclient.netset
 https://iplists.firehol.org/files/firehol_webserver.netset
-##https://www.dan.me.uk/torlist/ -O in/tornods.netset
+https://www.dan.me.uk/torlist/ -O in/tornods.netset
