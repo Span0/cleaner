@@ -1,7 +1,7 @@
-https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/firehol_level1.netset
-https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/firehol_level2.netset
-https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/firehol_level3.netset
-https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/firehol_level4.netset
-https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/firehol_webclient.netset
-https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/firehol_webserver.netset
-https://www.dan.me.uk/torlist/ -O in/tornods.netset
+https://iplists.firehol.org/files/firehol_level1.netset
+https://iplists.firehol.org/files/firehol_level2.netset
+https://iplists.firehol.org/files/firehol_level3.netset
+https://iplists.firehol.org/files/firehol_level4.netset
+https://iplists.firehol.org/files/firehol_webclient.netset
+https://iplists.firehol.org/files/firehol_webserver.netset
+##https://www.dan.me.uk/torlist/ -O in/tornods.netset
